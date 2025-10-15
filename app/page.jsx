@@ -16,7 +16,7 @@ const Home = () => {
           <div className="text-center xl:text-left order-2 xl:order-none">
             <span className="text-xl">Web Developer</span>
             <h1 className="h1 mb-6">
-              Hello I'm <br />{" "}
+              Hello I&apos;m <br />{" "}
               <span className="text-accent">Abdullah Al Moaz</span>
             </h1>
             <p className="max-w-[600px] mb-9 text-white/80 leading-relaxed">
@@ -33,7 +33,7 @@ const Home = () => {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>download CV</span>
+                <span>Download CV</span>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">
