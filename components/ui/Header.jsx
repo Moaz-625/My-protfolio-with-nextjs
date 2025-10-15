@@ -11,7 +11,7 @@ const Header = () => {
         {/*logo*/}
         <Link href="/">
           <h1 className="text-4xl font-semibold">
-            Moaaz<span className="text-accent">.</span>
+            Moaz<span className="text-accent">.</span>
           </h1>
         </Link>
         {/* dekstop nav hire me bitton */}

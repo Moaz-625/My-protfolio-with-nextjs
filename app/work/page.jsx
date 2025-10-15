@@ -8,12 +8,7 @@ import {
 import { animate, motion } from "framer-motion";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
-import {
-  BsHeartArrow,
-  BsGithub,
-  BsArrowUp,
-  BsArrowUpRight,
-} from "react-icons/bs";
+import { BsGithub, BsArrowUp, BsArrowUpRight } from "react-icons/bs";
 import React from "react";
 import { useState } from "react";
 
@@ -24,34 +19,49 @@ import WorkSliderBtns from "@/components/WorkSliderBtns";
 const projects = [
   {
     num: 1,
-    category: "frontend",
-    title: "Project One",
+    category: "fullstack",
+    title: "Project Two",
     description: "This is the first project.",
-    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
-    image: "/assets/work/thumb1.png",
-    live: "https://project1.com",
-    priority: true,
-    github: "https://github.com/user/project1",
+    stack: [
+      { name: "React" },
+      { name: "Next.js" },
+      { name: "Node.js" },
+      { name: "Express" },
+      { name: "MongoDB" },
+    ],
+    image: "/assets/work/thumb3.png",
+    live: "https://mychoose-ecommerce.vercel.app/",
+    github: "https://github.com/Moaz-625?tab=repositories",
   },
   {
     num: 2,
     category: "frontend",
-    title: "Project Two",
+    title: "Project Three",
     description: "This is the second project.",
-    stack: [{ name: "React" }, { name: "Next.js" }, { name: "CSS" }],
-    image: "/assets/work/thumb2.png",
-    live: "https://project2.com",
-    github: "https://github.com/user/project2",
+    stack: [{ name: "React" }, { name: "Next.js" }, { name: "Tailwind CSS" }],
+    image: "/assets/work/thumb4.png",
+    live: "https://videophics.vercel.app/",
+    github: "https://github.com/Moaz-625?tab=repositories",
   },
   {
     num: 3,
-    category: "fullstack",
-    title: "Project Three",
+    category: "frontend",
+    title: "Project One",
     description: "This is the third project.",
-    stack: [{ name: "Node.js" }, { name: "Express" }, { name: "MongoDB" }],
-    image: "/assets/work/thumb3.png",
-    live: "https://project3.com",
-    github: "https://github.com/user/project3",
+    stack: [{ name: "Html 5" }, { name: "Css 3" }, { name: "Javascript" }],
+    image: "/assets/work/thumb1.png",
+    live: "https://coffee-shop-eta-six.vercel.app/",
+    github: "https://github.com/Moaz-625?tab=repositories",
+  },
+  {
+    num: 4,
+    category: "frontend",
+    title: "Project Four",
+    description: "This is the fourth project.",
+    stack: [{ name: "React" }, { name: "Next.js" }, { name: "Tailwind CSS" }],
+    image: "/assets/work/thumb2.png",
+    live: "https://virtual-main-project.vercel.app/",
+    github: "https://github.com/Moaz-625?tab=repositories",
   },
 ];
 
