@@ -19,7 +19,7 @@ const Home = () => {
               <span className="text-accent">Abdullah Al Moaz</span>
             </h1>
             <p className="max-w-[600px] mb-9 text-white/80 leading-relaxed">
-              I’m a passionate web developer who loves crafting modern,
+              I&apos;m a passionate web developer who loves crafting modern,
               responsive and user-friendly websites. I focus on turning ideas
               into elegant digital experiences that are both creative and
               practical, helping businesses and individuals bring their vision
